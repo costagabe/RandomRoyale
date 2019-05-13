@@ -1,28 +1,28 @@
 {
-    "id": "0ddbc955-663c-4c79-866c-6aa73595d616",
+    "id": "f0ccf277-2372-473a-ab46-e87a48d2d9e5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "CannonBall",
+    "name": "Character",
     "eventList": [
         {
-            "id": "002b0f9f-6cf1-4613-a947-b5129e2ad5ed",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "0ddbc955-663c-4c79-866c-6aa73595d616"
-        },
-        {
-            "id": "132f4d2e-bb13-45d5-8677-fe3f6e3908cc",
+            "id": "2985b697-407f-44c8-acb8-e9d9e4aa48d3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0ddbc955-663c-4c79-866c-6aa73595d616"
+            "m_owner": "f0ccf277-2372-473a-ab46-e87a48d2d9e5"
+        },
+        {
+            "id": "b0e4c68b-181e-4bd0-9796-f3a049a5a1ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f0ccf277-2372-473a-ab46-e87a48d2d9e5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "028407dc-288e-413e-a545-2f112776950d",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

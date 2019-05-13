@@ -1,33 +1,23 @@
 {
-    "id": "e87b765d-5447-44d1-afcb-a025e856cfcd",
+    "id": "552465f8-7b82-4c36-9328-9fbb1d0e7edf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Gravitable",
+    "name": "Altair",
     "eventList": [
         {
-            "id": "91f5b564-79ca-4d5f-b4a0-8be4d959aeb9",
+            "id": "070b025e-980f-4e22-ba47-7ecd51c82867",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e87b765d-5447-44d1-afcb-a025e856cfcd"
-        },
-        {
-            "id": "0fd426e4-71e0-46ee-bdbb-c599d53ca6aa",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e87b765d-5447-44d1-afcb-a025e856cfcd"
+            "m_owner": "552465f8-7b82-4c36-9328-9fbb1d0e7edf"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "f0ccf277-2372-473a-ab46-e87a48d2d9e5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
