@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "e87b765d-5447-44d1-afcb-a025e856cfcd",
+            "Value": {
+                "id": "b50e1fee-8351-40c4-bb70-24ff875c0cd9",
+                "resourcePath": "objects\\Gravitable\\Gravitable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "d0b0a082-efa7-4774-a5f5-724071329ba8",
