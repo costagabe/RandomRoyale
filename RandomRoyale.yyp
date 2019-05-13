@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "34861be4-e344-45b0-aa3b-6b60abda35f0",
+            "Value": {
+                "id": "83ca58db-0851-4864-91a2-6965ab5577cb",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "bcedb223-d4b9-4417-888f-a136d7cdab1e",
@@ -108,6 +116,14 @@
                 "id": "17be2cba-3b68-4bf3-bbe8-dcf79514c3f9",
                 "resourcePath": "options\\ps4\\options_ps4.yy",
                 "resourceType": "GMPS4Options"
+            }
+        },
+        {
+            "Key": "45e2878f-afc2-4dca-8806-9af5110282c8",
+            "Value": {
+                "id": "2625d39a-8c6e-4b71-aeb2-3f44448a4394",
+                "resourcePath": "objects\\Plataform\\Plataform.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "6e93ec76-654d-40a4-aabb-72ec095ead51",
+            "Value": {
+                "id": "7e751a87-946a-46ee-bf35-f93e4d603b6a",
+                "resourcePath": "sprites\\AltairAtack1Spr\\AltairAtack1Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ee798b7-fbdd-4c91-9b8e-824cd25aec99",
             "Value": {
                 "id": "61302146-70e5-4344-b180-b69bbbcef49e",
@@ -151,6 +175,22 @@
             }
         },
         {
+            "Key": "79ba3ac5-24e4-474b-8af6-f80885a01b07",
+            "Value": {
+                "id": "461684f7-3a4c-4e70-8ffd-8d32daf0d7f8",
+                "resourcePath": "sprites\\AltairWalkingSpr\\AltairWalkingSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a8ca2df-7a27-40c8-be4f-f8a0bb901aed",
+            "Value": {
+                "id": "8ad1e2c8-00ed-492b-b966-a5ed07c36ef2",
+                "resourcePath": "views\\7a8ca2df-7a27-40c8-be4f-f8a0bb901aed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7e065b5f-4957-420f-8664-8152b2fc260e",
             "Value": {
                 "id": "2ca092bd-9517-4c7d-8a5d-3bb2ee4e81df",
@@ -164,6 +204,14 @@
                 "id": "c581379a-f1ad-4bf7-abac-c2b5994aeac0",
                 "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
                 "resourceType": "GMWindowsUAPOptions"
+            }
+        },
+        {
+            "Key": "7f0d68b8-d518-4ac7-9de1-790ace5bbb1a",
+            "Value": {
+                "id": "131df0e8-d4c2-4128-b892-c02cb374f9bb",
+                "resourcePath": "sprites\\AldairIdleSpr\\AldairIdleSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -244,6 +292,14 @@
                 "id": "d433f03d-b1bf-4efb-9aae-41062ae0eb94",
                 "resourcePath": "views\\b1e77ee3-56e4-40fe-b2a5-124fea6763a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cbb36581-13b5-49e5-8f87-65fed6972ef8",
+            "Value": {
+                "id": "68b9f4e2-ecf6-4212-aa58-caec60f46554",
+                "resourcePath": "sprites\\PlataformSpr\\PlataformSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
