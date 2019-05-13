@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "028407dc-288e-413e-a545-2f112776950d",
+            "Value": {
+                "id": "5ba544dc-9dba-4142-9688-b933fdae3bfe",
+                "resourcePath": "sprites\\CannonBallSpr\\CannonBallSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0ddbc955-663c-4c79-866c-6aa73595d616",
+            "Value": {
+                "id": "f1aea819-ee54-4cf7-9567-2420f26e8155",
+                "resourcePath": "objects\\CannonBall\\CannonBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "135e0866-b72d-4b30-ad79-ddee172c9f62",
             "Value": {
                 "id": "ad88a1cd-8968-4c2e-bcf1-8cc8effd8103",
@@ -52,6 +68,14 @@
                 "id": "6b510b88-c3e6-497a-8661-663cf591f2ce",
                 "resourcePath": "views\\169269f8-6bc7-4472-8d42-5b2a2251adbb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21ab6e13-a892-4d27-a201-97d62df5a90a",
+            "Value": {
+                "id": "86d2d8c9-abf3-43c0-a18f-dc9bba41d01b",
+                "resourcePath": "objects\\Cannon\\Cannon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -196,6 +220,14 @@
                 "id": "ac6035df-5738-4f4c-b665-938d207ce249",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "af371f8a-01ee-4500-a167-2c594afb97c4",
+            "Value": {
+                "id": "c80a0883-a740-4d78-9697-921a544a3349",
+                "resourcePath": "sprites\\CannonSpr\\CannonSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
