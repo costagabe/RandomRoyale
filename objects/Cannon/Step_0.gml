@@ -14,6 +14,7 @@ if(dx >=0 ){
 }
 
 if(mouse_check_button_released(mb_left)){
+	audio_play_sound(CannonSound,0,0);
 	velocity = 50;	
 	if(dx >=0){
 		angle += 90;	

@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "47dd7c28-9aac-4a1f-a5e0-587b814245e0",
+            "Value": {
+                "id": "a0514ae4-a4d9-4c27-b08e-ba52678a4fb8",
+                "resourcePath": "sounds\\CannonSound\\CannonSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4815900f-3e1b-4ff9-99af-cf2cc8d1eabc",
             "Value": {
                 "id": "4ed5ea6c-ec5c-4091-a365-e7a437aef39c",
@@ -364,6 +372,14 @@
                 "id": "c1d447e2-2bb3-4d46-b1f7-7680efde9551",
                 "resourcePath": "scripts\\apply_gravity\\apply_gravity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f086f272-af63-46cd-947f-e8fc6355007f",
+            "Value": {
+                "id": "e321b101-4de3-4b85-9d37-63680e383f60",
+                "resourcePath": "sounds\\SwordSound\\SwordSound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

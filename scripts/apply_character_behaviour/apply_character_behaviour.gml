@@ -27,6 +27,7 @@ if(canAttack){
 }
 
 if(attackCount % attackSpeed == 0){
+	audio_play_sound(attackSound,0,0);
 	canAttack = true;
 }
 

@@ -10,6 +10,7 @@ enterSprite = AltairEnterSprite;
 walkSprite = AltairWalkingSpr;
 alreadyTouchGround = false;
 attackSprite = AltairAtack1Spr;
+attackSound = SwordSound;
 
 //basics for gravitables
 vx =0;
