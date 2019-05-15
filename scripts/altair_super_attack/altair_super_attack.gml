@@ -1,12 +1,13 @@
 if(!superAttackPart2){
 	sprite_index = AltairSuperAtackSpr;
 }
-attackCount = 1;
 if(end_of_animation() && !superAttackPart2){
-	ball = instance_create_depth(x,y-200,-1,CannonBall);
-	ball.vx = 10;
-	ball.vy = -50;
-	
+	foo = image_xscale;
+	shot = instance_create_depth(x + foo*sprite_width/2+(foo*5),y-15,-1,AltairSuperAttackProjectille);
+	shot.damage = superAttackDamage;
+	shot.team = team;
+	shot.vx = 20*foo;
+	shot.image_xscale = foo;
 	audio_play_sound(CannonSound,0,0);	
 	sprite_index = AltairSuperAtackInverse;
 	superAttackPart2 = true;

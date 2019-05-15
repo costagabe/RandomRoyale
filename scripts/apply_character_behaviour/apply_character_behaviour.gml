@@ -1,29 +1,38 @@
-attackCount++;
-
-if(canSuperAttack){
-	script_execute(superAttack);
-}
-else if(canAttack){
-	script_execute(simpleAttack);
-}else{
-	walk();
+if(!canAttack && !canSuperAttack|| canAttack && !canSuperAttack){
+		attackCount++;
 }
 
-//every time that it can attack, it does it!
-if(attackCount % attackSpeed == 0){
-	//canAttack = true;
-	//soundFlag = true;
+if(enemy != -1 && instance_exists(enemy)){
+	distance = get_distance(enemy);
+	if(canSuperAttack && abs(x-enemy.x) <= superAttackRange){		
+		script_execute(superAttack);	
+	}
+	else if(canAttack && distance < attackRange +  enemy.image_xscale*enemy.sprite_width/2){
+		script_execute(simpleAttack);
+	}else if(abs(x-enemy.x) >= attackRange + enemy.image_xscale*enemy.sprite_width/4) {
+		walk();
+	}else{
+		sprite_index = AltairIdleSpr;	
+	}
+}else {
+	find_enemy();	
 }
 
 if(attackCount % superAttackCooldown == 0){
 		canSuperAttack = true;
 		soundFlag = true;
+		//canAttack = false;
+		attackCount++;
 }
 
-if(team != 1){
-	image_xscale = -1;	
+//every time that it can attack, it does it!
+if(attackCount % attackSpeed == 0){
+	canAttack = true;
+	soundFlag = true;
+	attackCount++;
 }
+
 
 if(hp <=0){
-	instance_destroy();	
+	delete_character(self);
 }

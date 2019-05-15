@@ -18,6 +18,11 @@ vy = 0;
 ay = 5;
 onGround = false;
 
+attackRange = 25;
+superAttackRange = 2000;
+
+simpleAttackDamage = 25;
+superAttackDamage = 125;
 
 attackSpeed = 50;
 superAttackCooldown = 150;
@@ -26,9 +31,11 @@ canAttack = false;
 canSuperAttack = false;
 superAttackPart2 = false; // flag to use for the second sprite of super attack start
 
-simpleAttackDamage = 20;
 hp = 100;
 soundFlag = false;
 
+enemy = -1;
+
+distance = 9999;
 superAttack = altair_super_attack;
 simpleAttack = simple_attack;

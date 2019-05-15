@@ -1,8 +1,12 @@
 if(onGround){
-	if(team == 1){
-		vx = 5;	
-	}	else{
-		vx = -5;	
+	if(instance_exists(enemy) && enemy != -1){
+		if(x-enemy.x < 0){//inimigo à direita
+			vx = 5;
+			image_xscale = 1;
+		}else{
+			vx = -5;
+			image_xscale = -1;
+		}
 	}
 	sprite_index = walkSprite;	
 }
