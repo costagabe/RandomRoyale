@@ -20,8 +20,15 @@ onGround = false;
 
 
 attackSpeed = 50;
+superAttackCooldown = 150;
 attackCount = 0;
 canAttack = false;
+canSuperAttack = false;
+superAttackPart2 = false; // flag to use for the second sprite of super attack start
 
-
+simpleAttackDamage = 20;
 hp = 100;
+soundFlag = false;
+
+superAttack = altair_super_attack;
+simpleAttack = simple_attack;

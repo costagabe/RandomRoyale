@@ -1,37 +1,23 @@
 attackCount++;
-if(canAttack){
-	sprite_index = attackSprite;
-	attackCount = 1;
-	frame_range = image_speed * sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps);
-	if(image_index >= image_number - image_speed && frame_range < image_number){
-		canAttack = false;
-		attackFlag = false;
-	}
-}else{
-	if(onGround){
-		if(team == 1){
-			vx = 5;	
-		}else{
-			vx = -5;	
-		}
-		sprite_index = walkSprite;	
-	}
-	foo = abs(vx)/vx;
 
-	repeat(abs(vx)){
-		if(place_free(x+foo,y)){
-			x+= foo;	
-		}else{
-			vx = 0;
-			sprite_index = idleSprite;	
-			break;
-		}
-	}
+if(canSuperAttack){
+	script_execute(superAttack);
+}
+else if(canAttack){
+	script_execute(simpleAttack);
+}else{
+	walk();
 }
 
+//every time that it can attack, it does it!
 if(attackCount % attackSpeed == 0){
-	audio_play_sound(attackSound,0,0);
-	canAttack = true;
+	//canAttack = true;
+	//soundFlag = true;
+}
+
+if(attackCount % superAttackCooldown == 0){
+		canSuperAttack = true;
+		soundFlag = true;
 }
 
 if(team != 1){

@@ -111,11 +111,19 @@
             }
         },
         {
-            "Key": "34861be4-e344-45b0-aa3b-6b60abda35f0",
+            "Key": "2ba8318b-8c15-49dd-8ebc-9b0d4dc723ec",
             "Value": {
-                "id": "83ca58db-0851-4864-91a2-6965ab5577cb",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
-                "resourceType": "GMSprite"
+                "id": "9ded13b4-812f-4c06-a51f-455e29fa6e52",
+                "resourcePath": "scripts\\walk\\walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "30f7d908-91f1-4037-872f-6165677d8b8f",
+            "Value": {
+                "id": "f0fd44af-8d16-4fe6-8c97-3c1c09522afc",
+                "resourcePath": "scripts\\altair_super_attack\\altair_super_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -156,6 +164,14 @@
                 "id": "4ed5ea6c-ec5c-4091-a365-e7a437aef39c",
                 "resourcePath": "scripts\\apply_character_behaviour\\apply_character_behaviour.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4de69b47-31f4-4c0d-a8f0-680d8f5f257f",
+            "Value": {
+                "id": "da2c4d63-c622-4de6-b6e0-ade96f8bf239",
+                "resourcePath": "sprites\\AltairSuperAtackInverse\\AltairSuperAtackInverse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "917d61c7-678d-4e51-9f8c-d201e61075e3",
+            "Value": {
+                "id": "e741856c-383e-4c5a-b0bf-58774cc7fb75",
+                "resourcePath": "views\\917d61c7-678d-4e51-9f8c-d201e61075e3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "791a6863-f4d4-45a7-9e07-f7d543a398a9",
@@ -351,6 +375,22 @@
             }
         },
         {
+            "Key": "b4af6599-9d63-41e4-9e2d-2d83c56eeba2",
+            "Value": {
+                "id": "bb9af87c-20e9-4dab-ab48-9fe9475e0daf",
+                "resourcePath": "sprites\\AltairSuperAtackSpr\\AltairSuperAtackSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7b8b561-dd92-444c-b4e7-5bfbcc990ba7",
+            "Value": {
+                "id": "24b7e980-8163-4111-8b25-939c800edbc0",
+                "resourcePath": "scripts\\end_of_animation\\end_of_animation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbb36581-13b5-49e5-8f87-65fed6972ef8",
             "Value": {
                 "id": "68b9f4e2-ecf6-4212-aa58-caec60f46554",
@@ -388,6 +428,14 @@
                 "id": "31091a61-d249-4a2f-9d6c-8f94fbf9961d",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "eb6139e0-5a44-4f8e-ae68-69b4da74cffc",
+            "Value": {
+                "id": "852e58d3-913b-4f13-b889-661aeed2de37",
+                "resourcePath": "scripts\\simple_attack\\simple_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -450,7 +498,11 @@
     "script_order": [
         "ef3ff4f7-9bb4-41af-b75b-d61411371a96",
         "4815900f-3e1b-4ff9-99af-cf2cc8d1eabc",
-        "d6b0a8ca-3501-49e3-b9a7-706e40236843"
+        "d6b0a8ca-3501-49e3-b9a7-706e40236843",
+        "b7b8b561-dd92-444c-b4e7-5bfbcc990ba7",
+        "30f7d908-91f1-4037-872f-6165677d8b8f",
+        "eb6139e0-5a44-4f8e-ae68-69b4da74cffc",
+        "2ba8318b-8c15-49dd-8ebc-9b0d4dc723ec"
     ],
     "tutorial": ""
 }
