@@ -32,6 +32,7 @@ canSuperAttack = false;
 superAttackPart2 = false; // flag to use for the second sprite of super attack start
 
 hp = 100;
+maxHp = 100;
 soundFlag = false;
 
 enemy = -1;
@@ -39,3 +40,8 @@ enemy = -1;
 distance = 9999;
 superAttack = altair_super_attack;
 simpleAttack = simple_attack;
+
+hpBar = instance_create_depth(x,y-25,0,HPBar);
+hpBar.totalHp =maxHp;
+hpBar.actualHp = hp;
+hpBar.width = sprite_width*1.5;

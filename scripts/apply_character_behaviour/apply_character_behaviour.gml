@@ -34,5 +34,14 @@ if(attackCount % attackSpeed == 0){
 
 
 if(hp <=0){
+	
 	delete_character(self);
+	with(hpBar){
+		instance_destroy();	
+	}
+}
+if(instance_exists(hpBar)){
+	hpBar.actualHp = hp;
+	hpBar.xx = x -  hpBar.width /2;
+	hpBar.yy = y-50;
 }
