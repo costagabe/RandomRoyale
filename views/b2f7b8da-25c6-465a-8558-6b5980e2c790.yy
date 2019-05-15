@@ -7,7 +7,7 @@
         "552465f8-7b82-4c36-9328-9fbb1d0e7edf"
     ],
     "filterType": "GMObject",
-    "folderName": "Aldair",
+    "folderName": "Altair",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -1,44 +1,34 @@
 {
-    "id": "0ddbc955-663c-4c79-866c-6aa73595d616",
+    "id": "2a86ab5f-74f4-4d05-bad3-bcb92e4d161f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "CannonBall",
+    "name": "GameManager",
     "eventList": [
         {
-            "id": "002b0f9f-6cf1-4613-a947-b5129e2ad5ed",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "0ddbc955-663c-4c79-866c-6aa73595d616"
-        },
-        {
-            "id": "132f4d2e-bb13-45d5-8677-fe3f6e3908cc",
+            "id": "b9526dbd-bd5d-4e1d-b9c8-b2c2f5c6c42e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0ddbc955-663c-4c79-866c-6aa73595d616"
+            "m_owner": "2a86ab5f-74f4-4d05-bad3-bcb92e4d161f"
         },
         {
-            "id": "e2e01a1e-6ac9-44cd-91d4-8833181e6988",
+            "id": "027b9a61-ad4c-4ba3-bcd8-d2af50b8b92b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "f0ccf277-2372-473a-ab46-e87a48d2d9e5",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0ddbc955-663c-4c79-866c-6aa73595d616"
+            "eventtype": 3,
+            "m_owner": "2a86ab5f-74f4-4d05-bad3-bcb92e4d161f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "028407dc-288e-413e-a545-2f112776950d",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

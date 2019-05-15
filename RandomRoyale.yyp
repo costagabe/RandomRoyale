@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2a86ab5f-74f4-4d05-bad3-bcb92e4d161f",
+            "Value": {
+                "id": "8450c024-d043-43f4-8603-e9203def53ef",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34861be4-e344-45b0-aa3b-6b60abda35f0",
             "Value": {
                 "id": "83ca58db-0851-4864-91a2-6965ab5577cb",
@@ -172,6 +180,14 @@
                 "id": "fdce8ab2-cba7-48e0-a471-b9ec9f89923c",
                 "resourcePath": "views\\56215f8c-2ad9-45ba-afee-49a44b5b223d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "56a59551-b303-4523-8b9d-c6500ff402bb",
+            "Value": {
+                "id": "b72e4513-2b02-438a-9404-1c51167307bc",
+                "resourcePath": "objects\\HPBar\\HPBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,6 +367,14 @@
             }
         },
         {
+            "Key": "d6b0a8ca-3501-49e3-b9a7-706e40236843",
+            "Value": {
+                "id": "e30a2aba-25b9-47e4-9f17-e8375b8c48d4",
+                "resourcePath": "scripts\\add_character\\add_character.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e36efdcd-c11b-4bc1-a68a-d91e6feeb5f8",
             "Value": {
                 "id": "75a7fdd7-c604-45e8-b774-540c465c2a63",
@@ -425,7 +449,8 @@
     ],
     "script_order": [
         "ef3ff4f7-9bb4-41af-b75b-d61411371a96",
-        "4815900f-3e1b-4ff9-99af-cf2cc8d1eabc"
+        "4815900f-3e1b-4ff9-99af-cf2cc8d1eabc",
+        "d6b0a8ca-3501-49e3-b9a7-706e40236843"
     ],
     "tutorial": ""
 }

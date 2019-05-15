@@ -9,7 +9,11 @@ if(canAttack){
 	}
 }else{
 	if(onGround){
-		vx = 5;	
+		if(team == 1){
+			vx = 5;	
+		}else{
+			vx = -5;	
+		}
 		sprite_index = walkSprite;	
 	}
 	foo = abs(vx)/vx;
@@ -23,7 +27,6 @@ if(canAttack){
 			break;
 		}
 	}
-
 }
 
 if(attackCount % attackSpeed == 0){
@@ -31,3 +34,10 @@ if(attackCount % attackSpeed == 0){
 	canAttack = true;
 }
 
+if(team != 1){
+	image_xscale = -1;	
+}
+
+if(hp <=0){
+	instance_destroy();	
+}

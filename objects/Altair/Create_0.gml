@@ -22,3 +22,6 @@ onGround = false;
 attackSpeed = 50;
 attackCount = 0;
 canAttack = false;
+
+
+hp = 100;
