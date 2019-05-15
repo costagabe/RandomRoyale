@@ -25,7 +25,7 @@ simpleAttackDamage = 25;
 superAttackDamage = 125;
 
 attackSpeed = 50;
-superAttackCooldown = 150;
+superAttackCooldown = 50;
 attackCount = 0;
 canAttack = false;
 canSuperAttack = false;

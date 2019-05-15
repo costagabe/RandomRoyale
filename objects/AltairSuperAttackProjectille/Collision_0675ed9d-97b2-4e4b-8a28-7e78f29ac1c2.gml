@@ -18,6 +18,4 @@ if(cannon.team != team){
 		totalDamage = damage;
 	}
 	vx =0;
-
-
 }
