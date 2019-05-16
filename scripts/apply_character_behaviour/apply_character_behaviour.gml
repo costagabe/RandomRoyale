@@ -7,11 +7,12 @@ if(enemy != -1 && instance_exists(enemy)){
 	if(canSuperAttack && abs(x-enemy.x) <= superAttackRange){		
 		script_execute(superAttack);	
 	}
-	else if(canAttack && distance < attackRange +  enemy.image_xscale*enemy.sprite_width/2){
-		script_execute(simpleAttack);
-	}else if(abs(x-enemy.x) >= attackRange + enemy.image_xscale*enemy.sprite_width/4) {
+	else if(abs(x-enemy.x) >= attackRange + abs(enemy.sprite_width)/2) {
 		walk();
-	}else{
+	}else if(canAttack && distance <= + abs(sprite_width)+ attackRange + abs(enemy.sprite_width)/2){
+		script_execute(simpleAttack);
+	}
+	else{
 		sprite_index = AltairIdleSpr;	
 	}
 }else {

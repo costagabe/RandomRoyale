@@ -18,14 +18,14 @@ vy = 0;
 ay = 5;
 onGround = false;
 
-attackRange = 25;
+attackRange = 20;
 superAttackRange = 2000;
 
 simpleAttackDamage = 25;
 superAttackDamage = 125;
 
-attackSpeed = 50;
-superAttackCooldown = 50;
+attackSpeed = 30;
+superAttackCooldown = 160;
 attackCount = 0;
 canAttack = false;
 canSuperAttack = false;
