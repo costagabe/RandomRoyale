@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "3e7e7977-b3f5-42a0-9d95-e8b3ea7252f7",
+            "Value": {
+                "id": "621cc92f-ea00-42ec-90c4-42d2f58f5412",
+                "resourcePath": "sprites\\AltairDeathSpr\\AltairDeathSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45e2878f-afc2-4dca-8806-9af5110282c8",
             "Value": {
                 "id": "2625d39a-8c6e-4b71-aeb2-3f44448a4394",
@@ -202,7 +210,7 @@
             "Key": "56a59551-b303-4523-8b9d-c6500ff402bb",
             "Value": {
                 "id": "b72e4513-2b02-438a-9404-1c51167307bc",
-                "resourcePath": "objects\\HPBar\\HPBar.yy",
+                "resourcePath": "objects\\Bar\\Bar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "8f475520-b42a-4ebc-a6bd-455cd136370d",
+            "Value": {
+                "id": "59ec4865-d78e-40c8-88bd-c0100b7ee42e",
+                "resourcePath": "sounds\\LaserHit\\LaserHit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "917d61c7-678d-4e51-9f8c-d201e61075e3",
             "Value": {
                 "id": "e741856c-383e-4c5a-b0bf-58774cc7fb75",
@@ -340,6 +356,14 @@
                 "id": "83db195f-0a40-4a03-b189-8cec422c79c9",
                 "resourcePath": "views\\a31deb3a-d5b0-4722-ad0e-df041ac04495.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a69e54ea-c39b-49ce-b4d1-a7483a3f1daa",
+            "Value": {
+                "id": "55c0040d-6731-4f05-8c61-ec05781fa84d",
+                "resourcePath": "sounds\\LaserShot\\LaserShot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -508,6 +532,14 @@
                 "id": "ff88d512-091b-4d5e-b773-0ae2d363ce4e",
                 "resourcePath": "objects\\Character\\Character.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1a9c50f-5ec6-44f7-b0a8-1ebac5dbf13f",
+            "Value": {
+                "id": "603af520-462c-4f13-9fa0-d20047ae295c",
+                "resourcePath": "sounds\\AltairDeathSound\\AltairDeathSound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

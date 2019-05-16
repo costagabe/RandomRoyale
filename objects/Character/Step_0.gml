@@ -10,6 +10,10 @@
 		
 		apply_character_behaviour();
 	}
-
+if(instance_exists(hpBar)){
+	hpBar.actualHp = hp;
+	hpBar.xx = x -  hpBar.width /2;
+	hpBar.yy = y-50;
+}
 apply_gravity();
 	

@@ -8,7 +8,6 @@ if(end_of_animation() && !superAttackPart2){
 	shot.team = team;
 	shot.vx = 20*foo;
 	shot.image_xscale = foo;
-	audio_play_sound(CannonSound,0,0);	
 	sprite_index = AltairSuperAtackInverse;
 	superAttackPart2 = true;
 	

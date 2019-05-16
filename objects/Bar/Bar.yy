@@ -2,7 +2,7 @@
     "id": "56a59551-b303-4523-8b9d-c6500ff402bb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "HPBar",
+    "name": "Bar",
     "eventList": [
         {
             "id": "1501dca5-f608-45b6-b7b1-5dc3a3173db6",

@@ -1,6 +1,6 @@
-apply_gravity();
+//apply_gravity();
 
-if(onGround ){
+if(y > room_height ){
 	instance_destroy();	
 }
 	
@@ -8,12 +8,6 @@ if(!place_free(x,y+1)){
 	onGround = true;
 }
 
-foo = abs(vx)/vx;
-repeat(abs(vx)){
-	if(place_free(x+foo,y)){
-		x+= foo;	
-	}else{
-		vx = 0;
-		break;
-	}
-}
+x += vx;
+y+= vy;
+vy+= 5;

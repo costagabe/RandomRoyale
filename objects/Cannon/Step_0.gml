@@ -12,10 +12,20 @@ if(dx >=0 ){
 	angle = -180*(arctan(dy/dx) /pi) - 270;
 	image_angle = angle ;
 }
+if(enemy != -1 && instance_exists(enemy)){
+	//if the enemy is on cannon range
+	if(abs(enemy.x - x) > 230){
+		
+	}
+}else{
+	find_enemy();	
+}
+
+
 
 if(mouse_check_button_released(mb_left)){
 	audio_play_sound(CannonSound,0,0);
-	velocity = 50;	
+	velocity = 27;	
 	if(dx >=0){
 		angle += 90;	
 	}else{
@@ -33,6 +43,15 @@ if(mouse_check_button_released(mb_left)){
 
 }
 
-if(hp <= 0){
+if(hp <=0){
+	
 	delete_character(self);
+	with(hpBar){
+		instance_destroy();	
+	}
+}
+if(instance_exists(hpBar)){
+	hpBar.actualHp = hp;
+	hpBar.xx = x -  hpBar.width /2;
+	hpBar.yy = y-50;
 }
