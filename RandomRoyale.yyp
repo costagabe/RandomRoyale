@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "149aa0ae-c837-4cb7-8c17-03049136edde",
+            "Value": {
+                "id": "ecd4c0d0-43a1-456a-8db8-fccbe8b69120",
+                "resourcePath": "sprites\\IchigoDeathSpr\\IchigoDeathSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "169269f8-6bc7-4472-8d42-5b2a2251adbb",
             "Value": {
                 "id": "6b510b88-c3e6-497a-8661-663cf591f2ce",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "24e7fa9e-86e8-4a48-b008-38b92286b312",
+            "Value": {
+                "id": "a9a8ab1d-04da-4ea9-a5c0-9d7022d00d74",
+                "resourcePath": "objects\\Getsuga\\Getsuga.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2824fffd-43d4-4c3b-b872-ca150d11251a",
             "Value": {
                 "id": "e85f7b9f-38ec-4612-9da7-84a3c7242d87",
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "36fbd863-0b44-4deb-9e3e-2cf84527a562",
+            "Value": {
+                "id": "1a8ae517-7976-42ed-ad23-3118fe3b4e1d",
+                "resourcePath": "views\\36fbd863-0b44-4deb-9e3e-2cf84527a562.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "bcedb223-d4b9-4417-888f-a136d7cdab1e",
@@ -155,6 +179,14 @@
             "Value": {
                 "id": "621cc92f-ea00-42ec-90c4-42d2f58f5412",
                 "resourcePath": "sprites\\AltairDeathSpr\\AltairDeathSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3efe67c2-3bbb-495a-b8a7-8c2b92545b9c",
+            "Value": {
+                "id": "7aac8de1-04bb-4a25-97a4-6c5deebdf5ad",
+                "resourcePath": "sprites\\IchigoAttackSpr\\IchigoAttackSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -236,6 +268,14 @@
                 "id": "b72e4513-2b02-438a-9404-1c51167307bc",
                 "resourcePath": "objects\\Bar\\Bar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "579ebc60-92c3-4a85-8d32-bd6c30a85161",
+            "Value": {
+                "id": "f6c4a904-be02-4a94-808b-7e9a8dae6213",
+                "resourcePath": "scripts\\init_basic_char\\init_basic_char.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -375,6 +415,14 @@
             }
         },
         {
+            "Key": "9b044421-d804-47d8-889a-53bc1c5ca348",
+            "Value": {
+                "id": "208d5d2d-d6d5-460f-9d7e-91fdb445fe13",
+                "resourcePath": "sprites\\GetsugaSprite\\GetsugaSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "87c71595-dd5f-49aa-acb9-12c53e3c4ba8",
@@ -471,11 +519,35 @@
             }
         },
         {
+            "Key": "c40b6069-bd08-4784-81cf-67a927dee551",
+            "Value": {
+                "id": "04456cbe-07ab-4bd8-b91c-1ecbd6e02da9",
+                "resourcePath": "sprites\\IchigoRunningSpr\\IchigoRunningSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6c143c9-4723-403f-b3a0-1ca7d080eb08",
             "Value": {
                 "id": "7998afa6-5787-4482-9a6f-e3b4de4b2552",
                 "resourcePath": "sprites\\AltairSuperAttackProjectilleSpr\\AltairSuperAttackProjectilleSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c9dd4efe-f76e-4ac8-8080-132983a93dae",
+            "Value": {
+                "id": "720286f4-da09-499b-841f-c0c0702dba9c",
+                "resourcePath": "sprites\\IchigoIdleSpr\\IchigoIdleSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca979d0a-7649-406f-8743-b67d716f70a5",
+            "Value": {
+                "id": "b111a3e3-4961-4dc4-9366-3e845baa3fc3",
+                "resourcePath": "scripts\\ichigo_super_attack\\ichigo_super_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -500,6 +572,14 @@
                 "id": "d0372ae8-951e-458c-87b1-f8cea3def80f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d178d6f1-11a9-4533-b822-1f9c9f99edad",
+            "Value": {
+                "id": "d96205c0-b8ba-4e55-8b15-f902eee04824",
+                "resourcePath": "sprites\\IchigoSpecialSpr\\IchigoSpecialSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -650,8 +730,10 @@
         "eb6139e0-5a44-4f8e-ae68-69b4da74cffc",
         "4815900f-3e1b-4ff9-99af-cf2cc8d1eabc",
         "d6b0a8ca-3501-49e3-b9a7-706e40236843",
+        "ca979d0a-7649-406f-8743-b67d716f70a5",
         "5a9f0cd0-6647-4634-88fa-7ea67f5d6715",
-        "aaf51c90-0429-4dad-8abc-dac696ddee8e"
+        "aaf51c90-0429-4dad-8abc-dac696ddee8e",
+        "579ebc60-92c3-4a85-8d32-bd6c30a85161"
     ],
     "tutorial": ""
 }

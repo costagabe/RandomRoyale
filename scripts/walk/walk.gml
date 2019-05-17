@@ -1,10 +1,10 @@
 if(onGround){
 	if(instance_exists(enemy) && enemy != -1){
 		if(x-enemy.x < 0){//inimigo à direita
-			vx = 5;
+			vx = moveSpeed;
 			image_xscale = 1;
 		}else{
-			vx = -5;
+			vx = -moveSpeed;
 			image_xscale = -1;
 		}
 	}
