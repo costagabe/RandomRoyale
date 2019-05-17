@@ -6,3 +6,4 @@ vy = 0;
 onGround = false;
 
 alarm[0] = 60;
+audio_play_sound(CannonSound,0,0);

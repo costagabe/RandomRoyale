@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-	if(enterSpriteCount < enterSpriteSize*5){	
-		if(onGround){
-			enterSpriteCount ++;		
-			}
-				sprite_index = enterSprite ;	
+	if(sprite_index == enterSprite){	
+		//if(end_of_animation()){
+		if(image_index == image_number-1){
+			canStart = true;
+		}
 			
-	}else{
-		
+	}
+		if(canStart){
 		apply_character_behaviour();
 	}
 if(instance_exists(hpBar)){

@@ -1,8 +1,4 @@
 if(!deathFlag){
-	if(!canAttack && !canSuperAttack|| canAttack && !canSuperAttack){
-			attackCount++;
-	}
-
 	if(enemy != -1 && instance_exists(enemy)  ){
 		distance = get_distance(enemy);
 		if(canSuperAttack && abs(x-enemy.x) <= superAttackRange && enemy.hp > 0){		
@@ -14,24 +10,24 @@ if(!deathFlag){
 			script_execute(simpleAttack);
 		}
 		else{
-			sprite_index = AltairIdleSpr;	
+			sprite_index = iddleSprite;	
 		}
 	}else {
 		find_enemy();	
 	}
 
-	if(attackCount % superAttackCooldown == 0){
+	if(superAttackCount % superAttackCooldown == 0){
 			canSuperAttack = true;
 			soundFlag = true;
-			//canAttack = false;
-			attackCount++;
+			canAttack = false;
+			superAttackCount++;
 	}
 
 	//every time that it can attack, it does it!
 	if(attackCount % attackSpeed == 0){
 		canAttack = true;
 		soundFlag = true;
-		attackCount++;
+		attackCount ++;
 	}
 
 
@@ -47,7 +43,7 @@ if(!deathFlag){
 	}
 }else{
 	if(sprite_index != deathSprite){
-		audio_play_sound(AltairDeathSound,0,0);	
+		audio_play_sound(deathSound,0,0);	
 	}
 	sprite_index = deathSprite;
 	

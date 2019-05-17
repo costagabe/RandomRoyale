@@ -1,5 +1,12 @@
 if(!superAttackPart2){
+	restartAnimation = false;
+	if(sprite_index != AltairSuperAtackSpr){
+			restartAnimation = true;
+	}
 	sprite_index = AltairSuperAtackSpr;
+	if(restartAnimation){
+		image_index = 0;	
+	}
 }
 if(end_of_animation() && !superAttackPart2){
 	foo = image_xscale;
