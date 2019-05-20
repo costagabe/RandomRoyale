@@ -8,7 +8,9 @@ repeat(abs(vy)){
 		y+= foo;	
 	}else{
 		onGround = true;
-		vy =0;
+		
+			vy =0;
+		
 		break;
 	}
 }

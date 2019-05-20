@@ -12,7 +12,8 @@
         "4de69b47-31f4-4c0d-a8f0-680d8f5f257f",
         "c6c143c9-4723-403f-b3a0-1ca7d080eb08",
         "8ad51d91-46b0-44a3-9258-f1c21e19fc12",
-        "3e7e7977-b3f5-42a0-9d95-e8b3ea7252f7"
+        "3e7e7977-b3f5-42a0-9d95-e8b3ea7252f7",
+        "e1301b16-d4a4-439e-a421-181ea630683f"
     ],
     "filterType": "GMSprite",
     "folderName": "Altair",

@@ -3,12 +3,11 @@
 sprite_index = AltairEnterSprite;
 
 //sprites
-idleSprite = AltairIdleSpr;
 enterSprite = AltairEnterSprite;
 walkSprite = AltairWalkingSpr;
 attackSprite = AltairAtack1Spr;
 deathSprite = AltairDeathSpr;
-iddleSprite = AltairIdleSpr;
+idleSprite = AltairIdleSpr;
 
 
 //sounds 

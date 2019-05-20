@@ -2,12 +2,11 @@
 // You can write your code in this editor
 sprite_index = IchigoEnterSpr;
 //sprites
-idleSprite = AltairIdleSpr;
 enterSprite = IchigoEnterSpr;
 walkSprite = IchigoRunningSpr;
 attackSprite = IchigoAttackSpr;
 deathSprite = IchigoDeathSpr;
-iddleSprite = IchigoIdleSpr;
+idleSprite = IchigoIdleSpr;
 
 
 //sounds 
@@ -25,8 +24,8 @@ attackRange = 20;
 superAttackRange = 200;
 simpleAttackDamage = 50;
 superAttackDamage = 100;
-attackSpeed = 100; //normal attack's cooldown
-superAttackCooldown = 10;
+attackSpeed = 10; //normal attack's cooldown
+superAttackCooldown = 200;
 superAttackPart2 = false; // flag to use for the second sprite of super attack start
 moveSpeed = 8;
 hp = 300;

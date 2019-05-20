@@ -10,7 +10,7 @@ if(!deathFlag){
 			script_execute(simpleAttack);
 		}
 		else{
-			sprite_index = iddleSprite;	
+			sprite_index = idleSprite;	
 		}
 	}else {
 		find_enemy();	

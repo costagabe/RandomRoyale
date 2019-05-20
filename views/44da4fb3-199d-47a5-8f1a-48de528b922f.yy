@@ -10,7 +10,8 @@
         "c9dd4efe-f76e-4ac8-8080-132983a93dae",
         "d178d6f1-11a9-4533-b822-1f9c9f99edad",
         "9b044421-d804-47d8-889a-53bc1c5ca348",
-        "149aa0ae-c837-4cb7-8c17-03049136edde"
+        "149aa0ae-c837-4cb7-8c17-03049136edde",
+        "f8dd4912-a972-40bc-bf31-2116c60600a6"
     ],
     "filterType": "GMSprite",
     "folderName": "Ichigo",
