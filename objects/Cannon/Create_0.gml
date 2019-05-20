@@ -7,7 +7,7 @@ enemy = -1;
 
 
 hpBar = instance_create_depth(x,y-64,0,Bar);
-hpBar.color1 = c_green;
+hpBar.color1 = c_lime;
 hpBar.color2 = c_red;
 hpBar.totalHp =maxHp;
 hpBar.actualHp = hp;
@@ -21,3 +21,5 @@ theta = 0;
 endRotationAnimation = false;
 alarm[0] = 30;
 alarm[1] = 1;
+
+range = 230;

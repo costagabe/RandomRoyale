@@ -3,5 +3,7 @@
 if(other.canGetsuga){
 	other.alarm[1] = 1
 	other.canGetsuga = false;
-	other.hp -= damage;
+	if(other.team != global.team){
+		other.hp -= damage;
+	}
 }

@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "304dffef-cf21-41f1-8e0d-708e6e3acc12",
+            "Value": {
+                "id": "e9b237ce-ca6f-4b1e-b9cd-d87f05762635",
+                "resourcePath": "scripts\\create_pre_selected_char\\create_pre_selected_char.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30f7d908-91f1-4037-872f-6165677d8b8f",
             "Value": {
                 "id": "f0fd44af-8d16-4fe6-8c97-3c1c09522afc",
@@ -420,6 +428,14 @@
                 "id": "555c15d8-0f72-4560-b240-234baebf6a2b",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "883c9178-eaea-4942-9a27-aab633f7d1f6",
+            "Value": {
+                "id": "a3f37e21-d920-4fa0-bab7-1e2d3db69b4e",
+                "resourcePath": "objects\\ManaBar\\ManaBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -711,6 +727,14 @@
             }
         },
         {
+            "Key": "d9b4384b-0586-42d3-8564-e1ca562d5881",
+            "Value": {
+                "id": "304400f3-5772-469e-9119-8fdc90844078",
+                "resourcePath": "objects\\PreSelectedChar\\PreSelectedChar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dacdd4ad-1d30-428d-85b3-27215c80a72e",
             "Value": {
                 "id": "1698e029-479d-4497-a255-ea6e4de0647d",
@@ -884,6 +908,7 @@
         "d6b0a8ca-3501-49e3-b9a7-706e40236843",
         "ca979d0a-7649-406f-8743-b67d716f70a5",
         "73fbc309-5585-4b56-b5fd-41832144b314",
+        "304dffef-cf21-41f1-8e0d-708e6e3acc12",
         "5a9f0cd0-6647-4634-88fa-7ea67f5d6715",
         "aaf51c90-0429-4dad-8abc-dac696ddee8e",
         "579ebc60-92c3-4a85-8d32-bd6c30a85161"

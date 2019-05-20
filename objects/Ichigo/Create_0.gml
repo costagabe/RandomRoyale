@@ -7,7 +7,7 @@ walkSprite = IchigoRunningSpr;
 attackSprite = IchigoAttackSpr;
 deathSprite = IchigoDeathSpr;
 idleSprite = IchigoIdleSpr;
-
+cardSprite = IchigoIngameCardSpr;
 
 //sounds 
 attackSound = SwordSound;
@@ -38,3 +38,4 @@ alarm[0]  = 1;
 
 create_hp_bar();
 
+cost = 25;

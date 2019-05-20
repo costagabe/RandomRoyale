@@ -8,6 +8,7 @@ walkSprite = AltairWalkingSpr;
 attackSprite = AltairAtack1Spr;
 deathSprite = AltairDeathSpr;
 idleSprite = AltairIdleSpr;
+cardSprite = AltairIngameCardSpr;
 
 
 //sounds 
@@ -25,7 +26,7 @@ superAttackDamage = 125;
 attackSpeed = 30; //normal attack's cooldown
 superAttackCooldown = 60;
 superAttackPart2 = false; // flag to use for the second sprite of super attack start
-
+moveSpeed = 4;
 
 maxHp = 100;
 hp = maxHp;
@@ -37,3 +38,5 @@ simpleAttack = simple_attack; //simple attack script
 alarm[0]  = 1;
 
 create_hp_bar();
+
+cost = 15;

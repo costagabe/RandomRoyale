@@ -15,7 +15,7 @@ angle = 0;
 if(endRotationAnimation &&canShot && enemy != -1 && instance_exists(enemy) && !enemy.deathFlag && object_get_name(enemy.object_index) != "Cannon" ){
 	
 		//if the enemy is on cannon range
-	if(abs(enemy.x - x) < 230){
+	if(abs(enemy.x - x) < range){
 		v = get_shot_velocity(theta,x+coss*80, y-sinn*80,enemy.x, enemy.y);
 	ball = instance_create_depth(x+coss*80,y-sinn*80,-1,CannonBall);
 	
@@ -51,7 +51,9 @@ if(endRotationAnimation &&canShot && enemy != -1 && instance_exists(enemy) && !e
 		
 	}
 	
-}else{
+}
+	
+if!(enemy != -1 && instance_exists(enemy) && !enemy.deathFlag && object_get_name(enemy.object_index) != "Cannon"){
 	find_enemy();	
 }
 

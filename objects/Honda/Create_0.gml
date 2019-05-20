@@ -8,6 +8,7 @@ walkSprite = HondaWalkSpr;
 attackSprite = HondaAttackSpr;
 deathSprite = HondaDeathSprite;
 idleSprite = HondaIdleSpr;
+cardSprite = HondaIngameCardSpr;
 
 
 //sounds 
@@ -38,3 +39,4 @@ alarm[0]  = 1;
 superAttackDamageCount = 0;
 create_hp_bar();
 
+cost = 50;
