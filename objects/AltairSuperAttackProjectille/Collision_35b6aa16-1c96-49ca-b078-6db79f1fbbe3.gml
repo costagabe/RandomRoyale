@@ -27,7 +27,7 @@ if(flagColision){
 	
 	for(i =0; i < ds_list_size(enemies);i++){
 		enemie = ds_list_find_value(enemies,i);
-		if(instance_exists(enemie)){
+		if(instance_exists(enemie) && object_get_name(enemie.object_index) != "Cannon"){
 			enemie.hp -= damage/20;
 		}
 	}

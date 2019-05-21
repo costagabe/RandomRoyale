@@ -3,3 +3,4 @@
 totalDamage = 0;
 flagColision = false;
 audio_play_sound(LaserShot,0,0);
+enemies = ds_list_create();

@@ -2,7 +2,7 @@
     "id": "d9b4384b-0586-42d3-8564-e1ca562d5881",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "PreSelectedChar",
+    "name": "PreSelectedCard",
     "eventList": [
         {
             "id": "cb6cf816-2581-4b57-89c4-8e10049ffe4b",

@@ -10,7 +10,7 @@ aux = instance_create_depth(-100,-100,0,global.deck[index]);
 global.actualCost = aux.cost;
 
 //set the pre selected chars
-preSelectedChar = instance_create_depth(mouse_x, mouse_y,0,PreSelectedChar);	
+preSelectedChar = instance_create_depth(mouse_x, mouse_y,0,PreSelectedCard);	
 preSelectedChar.obj = global.deck[index];
 preSelectedChar.sprite_index = global.deck[index].idleSprite;
 preSelectedChar.index = index;
